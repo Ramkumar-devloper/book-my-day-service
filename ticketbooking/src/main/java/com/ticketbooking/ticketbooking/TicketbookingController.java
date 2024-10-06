@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RestController
 public class TicketbookingController {
     
-    @RequestMapping("/sample")
-    public String sample() {
+    @RequestMapping("/sampleProgram")
+    public String sampleProgram() {
         return "Hello From Backend";
     }
 }
